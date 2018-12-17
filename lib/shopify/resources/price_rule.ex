@@ -34,7 +34,10 @@ defmodule Shopify.PriceRule do
     :entitled_collection_ids,
     :entitled_country_ids,
     :prerequisite_saved_search_ids,
-    :discount_codes
+    :discount_codes,
+    :prerequisite_product_ids,
+    :prerequisite_to_entitlement_quantity_ratio,
+    :allocation_limit
   ]
 
   @doc false
